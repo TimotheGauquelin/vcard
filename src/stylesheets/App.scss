@@ -1,0 +1,16 @@
+@import "variables";
+@import "mixins";
+@import "reset";
+
+
+.bg {
+  height: 100vh;
+  background: rgb(3, 54, 106);
+  background: linear-gradient(
+    121deg,
+    rgba(3, 54, 106, 1) 0%,
+    rgba(6, 86, 168, 1) 26%,
+    rgba(13, 101, 190, 0.8690826672465861) 79%,
+    rgba(79, 142, 206, 0.8914916308320203) 100%
+  );
+}
