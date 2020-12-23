@@ -19,9 +19,12 @@ const WhiteBackground = () => {
                 <div className="circleBlock col-lg">
                     <div className="photoBlock">
                         <img className="photo" src={`${process.env.PUBLIC_URL}/img/happyguyguy.png`} alt="" />
+                        <a href="https://www.linkedin.com/in/timoth%C3%A9-gauquelin-949272189/"><img className="linkedin" src={`${process.env.PUBLIC_URL}/img/linkedin_jpeg.jpg`} alt="" /></a>
+                        <a href="https://github.com/TimotheGauquelin"><img className="github" src={`${process.env.PUBLIC_URL}/img/github_jpeg.jpg`} alt="" /></a>
+                        <a href="https://www.instagram.com/spitzoune/"><img className="instagram" src={`${process.env.PUBLIC_URL}/img/insta_jpeg.jpg`} alt="" /></a>
                     </div>
                 </div>
-                <div className="socialNetwork">
+                <div className="socialNetworkMini">
                     <a href="https://www.linkedin.com/in/timoth%C3%A9-gauquelin-949272189/"><img src={`${process.env.PUBLIC_URL}/img/linkedin_jpeg.jpg`} alt="" /></a>
                     <a href="https://github.com/TimotheGauquelin"><img src={`${process.env.PUBLIC_URL}/img/github_jpeg.jpg`} alt="" /></a>
                     <a href="https://www.instagram.com/spitzoune/"><img src={`${process.env.PUBLIC_URL}/img/insta_jpeg.jpg`} alt="" /></a>

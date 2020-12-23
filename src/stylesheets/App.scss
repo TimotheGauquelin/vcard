@@ -141,7 +141,37 @@
         align-items: center;
         display: flex;
         flex-direction: column-reverse;
+        position: relative;
 
+        .linkedin {
+          position: absolute;
+          filter: drop-shadow(3px 4px 3px rgba(0, 0, 0, 0.5));
+          width: 70px;
+          border-radius: 10px;
+          right: 125px;
+          top: 90px;
+          transform: rotate(3.50deg);
+        }
+
+        .github {
+          position: absolute;
+          filter: drop-shadow(3px 4px 3px rgba(0, 0, 0, 0.5));
+          width: 70px;
+          border-radius: 10px;
+          left: 125px;
+          top: 180px;
+          transform: rotate(-8.80deg);
+        }
+
+        .instagram {
+          position: absolute;
+          filter: drop-shadow(3px 4px 3px rgba(0, 0, 0, 0.5));
+          width: 70px;
+          border-radius: 10px;
+          right: 150px;
+          top: 320px;
+          transform: rotate(8.50deg);
+        }
         .photo {
           object-fit: contain;
         }
@@ -150,7 +180,7 @@
   }
 }
 
-.socialNetwork {
+.socialNetworkMini {
   display: inline-block;
   margin-left: auto;
   @media (min-width: 991px) {
