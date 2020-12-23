@@ -4,10 +4,11 @@
     padding: 0;
 }
 
-@mixin button($color, $background, $radius: false) {
+@mixin button($color, $background, $backgroundBorder, $radius: false) {
     color: $color;
     background-color: $background;
-    border: 0.2rem solid $background;
+    border: 0.2rem solid $backgroundBorder;
+
 
     text-decoration: none;
     padding: 1rem 1.5rem;
@@ -18,7 +19,7 @@
     }
 
     &:hover {
-        color: $background;
-        background-color: transparent;
+        color: $backgroundBorder;
+        background-color: white;
     }
 }
