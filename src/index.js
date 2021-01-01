@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//Internalization
+import Wrapper from "./components/Wrapper"
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Wrapper>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode >
+  </Wrapper>,
   document.getElementById('root')
 );
 
