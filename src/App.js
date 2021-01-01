@@ -3,8 +3,8 @@ import Header from './components/Header'
 import WhiteBackground from './components/WhiteBackground'
 import './stylesheets/App.scss';
 
-
 class App extends Component {
+
   state = {
 
   }
@@ -14,8 +14,9 @@ class App extends Component {
     return (
       <div className="bg">
         <Header></Header>
-        <WhiteBackground></WhiteBackground>
-        {/* <img className="selfie" src={`${process.env.PUBLIC_URL}/img/happyguyguy.png`} alt="" /> */}
+        <div className="content">
+            <WhiteBackground></WhiteBackground>
+        </div>
       </div>
     );
   }
