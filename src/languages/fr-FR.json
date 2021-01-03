@@ -3,7 +3,8 @@
     "header.projects": "Projets",
     "header.contact": "Contact",
     "home.name": "Bonjour, je suis Timothé",
-    "home.about": "Je suis à la recherche d'un Stage",
+    "home.about": "Vous êtes actuellement sur mon portfolio où je publie mes créations, mes projets.",
+    "home.about2": "Je suis plein de curiosité avec des tonnes de projets en tête, que ce soit dans le monde réel ou dans le monde digital.", 
     "home.learnMore": "En savoir plus",
     "contact.downloadCV": "Télécharger CV"
 }

@@ -20,7 +20,13 @@ const Home = () => {
                 <div className="aboutInsert">
                     <FormattedMessage
                         id="home.about"
-                        defaultMessage="Je suis à la recherche d'un stage"
+                        defaultMessage="Vous êtes actuellement sur mon site"
+                    />
+                </div>
+                <div className="aboutInsert">
+                    <FormattedMessage
+                        id="home.about2"
+                        defaultMessage="Je suis plein de curiosité"
                     />
                 </div>
                 <Button className="buttonInsert" size="lg">
