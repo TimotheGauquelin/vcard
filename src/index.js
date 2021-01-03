@@ -1,11 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+
+//Components
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Home from './components/Home';
+import Contact from './components/Contact';
 
 //Internalization
 import Wrapper from "./components/Wrapper"
+
+import reportWebVitals from './reportWebVitals';
+
+//Route
+
+import {
+    BrowserRouter as Router,
+    Route,
+    Switch
+} from 'react-router-dom';
+
+const Root = () => (
+    <Router>
+        <Switch>
+            <Route exact path='/' component={App} />
+            <Route exact path='/home' component={Home} />
+            <Route exact path='/contact' component={Contact} />
+            {/* <Route component={NotFound} /> */}
+        </Switch>
+    </Router>
+);
 
 ReactDOM.render(
   <Wrapper>
