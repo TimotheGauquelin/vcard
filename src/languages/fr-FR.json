@@ -2,8 +2,8 @@
     "header.home": "Accueil",
     "header.projects": "Projets",
     "header.contact": "Contact",
-
-    "app.name": "Bonjour, je suis Tim",
-    "app.about": "Je suis à la recherche d'un Stage",
-    "app.learnMore": "En savoir plus"
+    "home.name": "Bonjour, je suis Timothé",
+    "home.about": "Je suis à la recherche d'un Stage",
+    "home.learnMore": "En savoir plus",
+    "contact.downloadCV": "Télécharger CV"
 }

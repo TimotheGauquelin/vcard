@@ -1,9 +1,9 @@
 {
-"header.home": "Home",
-"header.projects": "Projects",
-"header.contact" : "Contact",
-
-"whiteBg.name": "Hi, I'm Tim",
-"whiteBg.about": "I am looking for an internship",
-"whiteBg.learnMore": "Learn More"
+    "header.home": "Home",
+    "header.projects": "Projects",
+    "header.contact": "Contact",
+    "home.name": "Hi, I'm Timothé",
+    "home.about": "I am looking for an internship",
+    "home.learnMore": "Learn More",
+    "contact.downloadCV": "Download resume"
 }
