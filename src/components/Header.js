@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { FormattedMessage } from "react-intl";
 import { Context } from './Wrapper';
+import '../stylesheets/Header.scss';
 
 
 const Header = () => {
@@ -37,7 +38,7 @@ const Header = () => {
                             defaultMessage="Projets"
                         />
                     </Nav.Link>
-                    <Nav.Link href="#contact" disabled >
+                    <Nav.Link href="/contact" disabled >
                         <FormattedMessage
                             id="header.contact"
                             defaultMessage="Contact"
