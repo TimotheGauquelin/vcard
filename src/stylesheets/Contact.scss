@@ -4,3 +4,44 @@
 @import "~bootstrap/scss/bootstrap";
 
 //Contact SCSS
+
+.leftBlock {
+    .contentInsert--redBold {
+        color: $color-darkRed;
+        font-weight: 900;
+    }
+    ul {
+        font-size: 2rem;
+        font-style: normal;
+        line-height: 28px;
+
+        list-style: none;
+        margin: 2rem 0;
+        padding-inline-start: 0;
+
+        @media (max-width: 575px) {
+            font-size: 12px;
+            line-height: 20px;
+        }
+        li {
+            padding: 1rem 0rem;
+
+            .icon {
+                margin: 0 20px;
+
+                @media (max-width: 575px) {
+                    font-size: 15px;
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+}
+
+.rightBlock {
+    text-align: center;
+
+    .buttonInsert {
+        @include buttonInsert($color-red, #c75555, whitesmoke, 18px, true);
+    }
+}
