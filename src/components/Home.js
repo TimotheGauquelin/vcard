@@ -11,19 +11,19 @@ const Home = () => {
             <div className="leftBlock col-lg">
                 <img className="portable-headPhoto" src={`${process.env.PUBLIC_URL}/img/photo/portablePhoto.png`} alt="My Head" />
 
-                <div className="nameInsert">
+                <div className="titleInsert">
                     <FormattedMessage
                         id="home.name"
                         defaultMessage="Bonjour, je suis Tim"
                     />
                 </div>
-                <div className="aboutInsert">
+                <div className="contentInsert">
                     <FormattedMessage
                         id="home.about"
                         defaultMessage="Vous êtes actuellement sur mon site"
                     />
                 </div>
-                <div className="aboutInsert">
+                <div className="contentInsert">
                     <FormattedMessage
                         id="home.about2"
                         defaultMessage="Je suis plein de curiosité"

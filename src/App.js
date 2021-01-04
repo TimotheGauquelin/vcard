@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
-// import Contact from './components/Contact'
+import Contact from './components/Contact'
 import './stylesheets/App.scss';
 
 class App extends Component {
@@ -16,6 +16,7 @@ class App extends Component {
       <div className="bg">
         <Header></Header>
         <Home></Home>
+        {/* <Contact></Contact> */}
       </div>
     );
   }
